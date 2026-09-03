@@ -1,0 +1,17 @@
+# Node Modules (ไม่ดันขึ้น Git เพราะขนาดใหญ่)
+**/node_modules/
+
+# Environment Variables (ไฟล์เก็บความลับ/Password)
+**/.env
+**/.env.local
+**/.env.production
+
+# Next.js Build Files (ไฟล์สร้างอัตโนมัติฝั่ง Frontend)
+**/frontend/.next/
+**/frontend/out/
+**/frontend/build/
+
+# System Files
+.DS_Store
+Thumbs.db
+*.log
