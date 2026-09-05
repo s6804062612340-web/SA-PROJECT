@@ -18,6 +18,8 @@ mongoose.connect(process.env.MONGO_URI)
 // Routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/products', require('./routes/products'));
+app.use('/api/wallet', require('./routes/wallet'));
+app.use('/api/orders', require('./routes/orders'));
 
 // Test Route
 app.get('/', (req, res) => {
